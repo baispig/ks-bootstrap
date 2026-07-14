@@ -5,8 +5,8 @@
 ## 安装稳定版
 
 ```bash
-curl -fsSLO https://raw.githubusercontent.com/baispig/ks-bootstrap/v0.3.0/bootstrap.sh
-curl -fsSLO https://raw.githubusercontent.com/baispig/ks-bootstrap/v0.3.0/SHA256SUMS
+curl -fsSLO https://raw.githubusercontent.com/baispig/ks-bootstrap/v0.3.1/bootstrap.sh
+curl -fsSLO https://raw.githubusercontent.com/baispig/ks-bootstrap/v0.3.1/SHA256SUMS
 sha256sum -c SHA256SUMS
 sudo bash bootstrap.sh
 ```
@@ -20,4 +20,3 @@ Token 应只授权私有仓库 `baispig/ks`，权限为 `Contents: Read-only`。
 ```bash
 sudo bash bootstrap.sh --ref main
 ```
-

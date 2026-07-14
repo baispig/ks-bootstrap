@@ -4,7 +4,7 @@ set +x
 ulimit -c 0 2>/dev/null || true
 
 readonly DEFAULT_REPOSITORY='baispig/ks'
-readonly DEFAULT_REF='v0.3.0'
+readonly DEFAULT_REF='v0.3.1'
 readonly DEFAULT_SOURCE_ROOT='/opt/kxsw-source'
 
 red='\033[0;31m'
@@ -33,7 +33,7 @@ KXSW 私有仓库引导安装器
   sudo bash bootstrap.sh [选项]
 
 选项：
-  --ref REF        安装指定版本；支持 main 或 vX.Y.Z，默认 v0.3.0
+  --ref REF        安装指定版本；支持 main 或 vX.Y.Z，默认 v0.3.1
   --repo 仓库     GitHub 仓库，格式为 所有者/仓库，默认 baispig/ks
   --update         重新拉取所选版本并更新 KXSW
   -h, --help       显示帮助
