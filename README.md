@@ -5,8 +5,8 @@
 ## 安装稳定版
 
 ```bash
-curl -fsSLO https://raw.githubusercontent.com/baispig/ks-bootstrap/v0.4.0/bootstrap.sh
-curl -fsSLO https://raw.githubusercontent.com/baispig/ks-bootstrap/v0.4.0/SHA256SUMS
+curl -fsSLO https://raw.githubusercontent.com/baispig/ks-bootstrap/v0.6.0/bootstrap.sh
+curl -fsSLO https://raw.githubusercontent.com/baispig/ks-bootstrap/v0.6.0/SHA256SUMS
 sha256sum -c SHA256SUMS
 sudo bash bootstrap.sh
 ```
